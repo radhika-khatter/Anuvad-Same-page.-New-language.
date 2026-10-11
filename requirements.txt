@@ -1,0 +1,16 @@
+# Core
+pdf2image
+pytesseract
+Pillow
+python-docx
+pymupdf
+ 
+# Translation engines
+transformers
+sentencepiece
+deep-translator      # only needed for --engine google
+# argostranslate     # optional, only for --engine argos
+ 
+# PyTorch is installed separately (see README) so you can pick the CUDA build:
+# pip install torch --index-url https://download.pytorch.org/whl/cu126
+ 
